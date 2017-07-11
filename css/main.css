@@ -16,7 +16,7 @@ div.nav {
 }
 li {
   display: inline-block;
-  padding: 30px;
+
 }
 li a {
   color: white;
@@ -67,6 +67,7 @@ h1 {
   color: orange;
   margin-left: 50px;
 }
+
 div.info {
   margin-left: 200px;
   font-size: 40px;
@@ -116,4 +117,31 @@ footer {
   height: 100px;
   width: 100%;
   bottom: 0;
+}
+@media (max-width:1400px){
+  footer {
+    position: relative;
+    bottom: -18px;
+  }
+}
+@media (max-width:1400px) {
+  div.info {
+    font-size: 28px;
+  }
+}
+@media (max-width:1400px) {
+  button.button1 {
+    width: 30%;
+  }
+}
+@media (max-width:1400px) {
+  button.button2 {
+    width: 32%;
+  }
+}
+@media (max-width:640px) {
+  button.button2 {
+    position: absolute;
+    width: 14%;
+  }
 }
